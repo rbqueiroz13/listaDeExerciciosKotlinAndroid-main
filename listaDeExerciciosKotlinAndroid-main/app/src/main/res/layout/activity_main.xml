@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Escolha uma opção"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:textSize="30dp"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#D02020"
+        android:text="Calcular IMC"
+        android:textSize="30dp"
+        android:layout_marginBottom="@dimen/marginBottomButton"
+        android:onClick="goToScreenIMC"
+        app:icon="@android:drawable/btn_star_big_on" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#D02020"
+        android:text="@string/calculateIMCTwoScreens"
+        android:textSize="30dp"
+        android:layout_marginBottom="@dimen/marginBottomButton"
+        app:icon="@android:drawable/btn_star_big_on"
+        android:onClick="goToScreenIMC2Screens"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#D02020"
+        android:text="@string/AntecessorSucessor"
+        android:textSize="30dp"
+        android:layout_marginBottom="@dimen/marginBottomButton"
+        app:icon="@android:drawable/btn_star_big_on"
+        android:onClick="goToScreenQuestao1"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#D02020"
+        android:text="@string/CalculaTabuada"
+        android:textSize="30dp"
+        android:layout_marginBottom="@dimen/marginBottomButton"
+        app:icon="@android:drawable/btn_star_big_on"
+        android:onClick="goToScreenQuestao2"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#D02020"
+        android:text="@string/VerificaSangue"
+        android:textSize="30dp"
+        android:layout_marginBottom="@dimen/marginBottomButton"
+        app:icon="@android:drawable/btn_star_big_on"
+        android:onClick="goToScreenQuestao3"/>
+
+</LinearLayout>

@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">My First App</string>
+    <string name="edit_message">Insira sua risada</string>
+    <string name="button_send">Send</string>
+    <string name="imc">CALCULADORA DE IMC</string>
+    <string name="peso">Peso:</string>
+    <string name="altura">Altura:</string>
+    <string name="button_calculate_imc">Calcular IMC</string>
+    <string name="calculateIMCTwoScreens">Calcular IMC 2T</string>
+    <string name="numero">Antecessor e sucessor</string>
+    <string name="number">Numero:</string>
+    <string name="button_calculate_antesucess">Ver</string>
+    <string name="AntecessorSucessor">Antecessor e Sucessor</string>
+    <string name="CalculaTabuada">Calcula Tabuada</string>
+    <string name="caltabuada">Calculadora da Tabuada</string>
+    <string name="button_calculate_tabuada">Calcular</string>
+    <string name="button_calculate_doarsangue">Verificar</string>
+    <string name="doação">Saiba se você pode doar!</string>
+    <string name="idade">Idade:</string>
+    <string name="VerificaSangue">Doação de Sangue</string>
+</resources>
